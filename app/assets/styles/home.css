@@ -1,0 +1,7 @@
+.container {
+    padding: var(--nav-top-margin) calc(var(--nav-side-margin) + 75px);
+}
+
+.first.container {
+    padding-top: calc(var(--nav-height) + var(--nav-top-margin)*3);
+}

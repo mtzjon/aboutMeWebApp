@@ -1,0 +1,45 @@
+body {
+    display: block;
+    margin: 0;
+    background-color: #21383a;
+    height: 200vh;
+}
+
+::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+::-webkit-scrollbar {
+    width: 9px;
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background-color: #707070;
+}
+
+div {
+    display: block;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    color: var(--light-grey);
+    margin: 0;
+}
+
+h2 {
+    font-weight: 500;
+    margin: 10px 0;
+}
+
+.first h2 {
+    margin-top: 0;
+}
+
+p {
+    font-family: var(--font);
+    margin: 10px 0;
+}
+

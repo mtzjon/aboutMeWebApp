@@ -1,0 +1,11 @@
+.left-aligned {
+    text-align: left;
+    justify-content: left;
+    float: left;
+}
+
+.right-aligned {
+    text-align: right;
+    justify-content: right;
+    float: right;
+}

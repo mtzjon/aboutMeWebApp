@@ -1,0 +1,18 @@
+:root {
+    --nav-width: calc(100% - 2*var(--nav-side-margin));
+    --nav-height: 80px;
+    --nav-top-margin: 25px;
+    --nav-side-margin: 50px;
+    --nav-position: fixed;
+    --nav-border-radius: 5px;
+    --light-black: #1c1c1c;
+    --bordeaux-red: #7d150c;
+    --dark-blue: #1d2c2e;
+    --dark-green: #42584b;
+    --dark-beige: #ceaf87;
+    --light-grey: #dedede;
+    --font: Calibri;
+    --white: #fff;
+}
+
+@import "styles/*";
